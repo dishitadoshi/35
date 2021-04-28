@@ -43,12 +43,12 @@ function draw() {
   else if(keyDown(UP_ARROW)){
     writePosition(0,-1);
     balloon.addAnimation("hotAirBalloon",balloonImage2);
-   // balloon.scale=balloon.scale -0.01;
+   // balloon.scale=balloon.scale -0.05;
   }
   else if(keyDown(DOWN_ARROW)){
     writePosition(0,+1);
     balloon.addAnimation("hotAirBalloon",balloonImage2);
-   // balloon.scale=balloon.scale +0.01;
+   // balloon.scale=balloon.scale +0.05;
   }
 
   drawSprites();
